@@ -220,7 +220,7 @@ String getDataType(v, Set<String> set, String current, String tag) {
   if (v is bool) {
     return "bool";
   } else if (v is num) {
-    return "num";
+    return "int";
   } else if (v is Map) {
     return "Map<String,dynamic>";
   } else if (v is List) {
