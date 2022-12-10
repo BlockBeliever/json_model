@@ -240,7 +240,7 @@ String getDataType(v, Set<String> set, String current, String tag) {
       }
       return changeFirstChar(fileName);
     } else if (v.startsWith("@")) {
-      return v;
+      return v.substring(1);
     }else if (v.startsWith("&")) {
       return v.substring(1);
     } 
